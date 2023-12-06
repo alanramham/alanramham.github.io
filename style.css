@@ -1,0 +1,54 @@
+{
+    box-sizing: border-box;
+}
+
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+    height: 300px;
+}
+
+.column h2{text-align:center;}
+
+
+.row:after {
+    content: "";
+    display:table;
+    clear:both;
+}
+
+
+footer .copyright{width: 100vw; text-align: center;}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height:400px;
+    background: #6cf
+}
+
+.fa-facebook {
+    background: #3b5998;
+    color: white;
+    height: 50px;
+    width: 50px;
+    padding: 20px;
+}
+
+.fa-instagram {
+    background: #3b5998;
+    color: white;
+    height: 50px;
+    width: 50px;
+    padding: 20px;
+}
+
+
+@media screen and (max-width:600px){
+    .column{
+        width:100%;
+    }
+}
